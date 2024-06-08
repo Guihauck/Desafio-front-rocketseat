@@ -1,0 +1,27 @@
+:root {
+  font-size: 62.5%;
+  --cor-do-titulo: hsl(320, 69%, 42%);
+  --cor-do-subtitulo: hsl(244, 38%, 28%);
+}
+
+body {
+  font-family: Mulish, sans-serif;
+}
+
+.pagina-principal h1 {
+  font-size: 3.2rem;
+  color: var(--cor-do-titulo);
+  font-weight: 900;
+}
+
+.pagina-principal h2 {
+  font-size: 2.0rem;
+  color: var(--cor-do-subtitulo);
+}
+
+.pagina-principal {
+  border: 3px solid orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
