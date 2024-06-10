@@ -1,7 +1,10 @@
 :root {
   font-size: 62.5%;
-  --cor-do-titulo: hsl(320, 69%, 42%);
-  --cor-do-subtitulo: hsl(244, 38%, 28%);
+  --cor-do-titulo: #b52184;
+  --cor-do-subtitulo: #302c63;
+  --cor-cartoes-planetas: #ffffff;
+  --cor-linear-fundo1: #302c63;
+  --cor-linear-fundo2: #343091;
 }
 
 body {
@@ -24,4 +27,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.cartoes-planetas {
+  background: rgb(52, 49, 147);
+  background: linear-gradient(69deg, #343193 0%, #302c63 100%);
+}
+.cartoes-planetas h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--cor-do-titulo);
+}
+
+.cartoes-planetas p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--cor-do-subtitulo);
 }
