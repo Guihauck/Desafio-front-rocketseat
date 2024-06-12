@@ -74,3 +74,85 @@ body {
   height: 8.0rem;
   margin-bottom: 2.4rem;
 }
+
+.pagina-formulario {
+  padding: 8.0rem 4.0rem;
+}
+
+.pagina-formulario h1 {
+  font-size: 3.2rem;
+  color: var(--cor-do-titulo);
+  margin-bottom: 4.3rem;
+}
+
+.pagina-formulario .input-nome input {
+  border: none;
+  border: 2px solid #312D64;
+  border-radius: 1.6rem;
+  padding: 1.6rem 5.0rem 1.6rem;
+  margin-bottom: 2.4rem;
+  width: 34.8rem;
+}
+
+.pagina-formulario .input-nome input::placeholder {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: Mulish, sans-serif;
+  color: #312D64;
+}
+
+.pagina-formulario .input-email input {
+  border: none;
+  border: 2px solid #312D64;
+  border-radius: 1.6rem;
+  padding: 1.6rem 5.0rem 1.6rem;
+  margin-bottom: 2.4rem;
+  width: 34.8rem;
+}
+
+.pagina-formulario .input-email input::placeholder {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: Mulish, sans-serif;
+  color: #312D64;
+}
+
+.pagina-formulario .input-area-texto textarea {
+  border: none;
+  border: 2px solid #312D64;
+  border-radius: 1.6rem;
+  padding: 1.2rem 1.6rem 1.6rem;
+  margin-bottom: 2.4rem;
+  width: 34.8rem;
+  height: 12.6rem;
+}
+
+.pagina-formulario .input-area-texto textarea::placeholder {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: Mulish, sans-serif;
+  color: #312D64;
+}
+
+.pagina-formulario {
+  position: relative;
+}
+
+.pagina-formulario img {
+  position: absolute;
+  background-size: cover;
+  padding: 1.2rem 1.4rem 1.2rem;
+}
+
+.botao-enviar {
+  border: none;
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  background: rgb(52, 49, 147);
+  background: linear-gradient(69deg, #343193 0%, #302C63 100%);
+  font-size: 1.4rem;
+  color: white;
+  font-family: Mulish, sans-serif;
+  font-weight: bold;
+  margin-bottom: 2.4rem;
+}
