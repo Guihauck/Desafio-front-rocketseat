@@ -1,0 +1,6 @@
+@media(min-width:600px) {
+  .pagina-principal:{
+    border: 2px solid orange;
+    display: flex;
+  }
+}

@@ -79,6 +79,12 @@ body {
   padding: 8.0rem 4.0rem;
 }
 
+.pagina-formulario  {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .pagina-formulario h1 {
   font-size: 3.2rem;
   color: var(--cor-do-titulo);
@@ -154,5 +160,12 @@ body {
   color: white;
   font-family: Mulish, sans-serif;
   font-weight: bold;
-  margin-bottom: 2.4rem;
+}
+.rodape{
+  padding: 1.6rem;
+  text-align: center;
+  font-size: 1.8rem;
+  background: rgb(52, 49, 147);
+  background: linear-gradient(140deg, #343193 0%, #302C63 100%);
+  color: white;
 }
