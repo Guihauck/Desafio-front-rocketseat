@@ -1,6 +1,14 @@
 @media(min-width:600px) {
-  .pagina-principal:{
+
+  .pagina-principal img:nth-child(1) {
+    width:720px;
+    height: 732px;
+  }
+
+  .pagina-principal .conteudo-texto {
     border: 2px solid orange;
     display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
   }
 }
