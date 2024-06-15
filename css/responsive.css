@@ -6,9 +6,18 @@
   }
 
   .pagina-principal .conteudo-texto {
-    border: 2px solid orange;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row-reverse;
-    width: 100%;
   }
+
+  .pagina-principal .titulo-imagem h1 {
+    font-size: 58px;
+    margin-bottom: 8px;
+  }
+
+  .pagina-principal .titulo-imagem h2 {
+    font-size: 32px;
+  } 
 }
